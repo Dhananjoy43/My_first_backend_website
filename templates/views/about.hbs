@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+{{>header}} <!-- Partial link for header -->
+
+
+<body>
+{{>navbar}} <!-- Partial link for Navbar -->
+
+<section class="About">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="../../public/images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p><span></span> Hi there! My name is Dhananjoy Mahata, and I'm a web developer based in Kolkata, West Bengal, India. I'm passionate about creating
+                    engaging, interactive, and user-friendly websites that deliver a seamless experience for users.</p>
+                    
+                    <p><span></span> I started my journey in web development two years ago, and have since honed my skills in a range of
+                    technologies, including HTML, CSS, JavaScript, and more. I take a collaborative approach to my work, and enjoy working
+                    closely with clients and other developers to bring their ideas to life.</p>
+                    
+                    <p><span></span> Thanks for taking the time to learn a little bit about me. I'm excited to hear about your next project and explore how
+                    we can work together to make it a success!</p>
+                    <div class="tab-titles">
+                        <h3 class="tab-links active-link" id="Skills-link" onclick="showtab('Skills')">Skills</h3>
+                        <h3 class="tab-links" id="Experience-link" onclick="showtab('Experience')">Experience</h3>
+                        <h3 class="tab-links" id="Education-link" onclick="showtab('Education')">Education</h3>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>C++ & DSA</span><br>Data structure & algorithms with C++</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Web Development Training at ET Institute</li>
+                            <li><span>2023 - 2024</span><br>Internship at Ekart ecommerce</li>
+                            <li><span>2022 - 2023</span><br>Internship at Cuvute</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>BE : 2021 - 2025</span><br>Jadavpur University</li>
+                            <li><span>12 <sup>th</sup> : 2020</span><br>Jhargram K.K. Institution</li>
+                            <li><span>10 <sup>th</sup> : 2018</span><br>Jhargram K.K. Institution</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+{{>js_links}} <!-- Partial links for javascript -->
+</body>
+</html>
