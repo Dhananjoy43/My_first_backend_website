@@ -6,7 +6,7 @@ const hbs = require("hbs");
 const User = require("./models/usermessage");
 
 const app = express();
-const port = process.env.PORT || 5500;
+const port = process.env.PORT || 3000;
 
 // Setting the path
 const staticPath = path.join(__dirname, "../public")
